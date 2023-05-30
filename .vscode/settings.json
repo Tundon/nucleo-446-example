@@ -1,7 +1,0 @@
-{
-  "files.associations": {
-    "gpio.h": "c",
-    "stm32f4xx_it.h": "c",
-    "stm32f4xx_hal.h": "c"
-  }
-}
