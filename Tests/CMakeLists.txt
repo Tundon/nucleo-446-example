@@ -23,7 +23,7 @@ FetchContent_Declare(
         URL https://github.com/google/googletest/archive/refs/tags/v1.13.0.zip
 )
 # For Windows: Prevent overriding the parent project's compiler/linker settings
-set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
+# set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
 add_compile_definitions(GTEST_HAS_PTHREAD)
@@ -32,5 +32,5 @@ file(GLOB_RECURSE SOURCES "*.*")
 
 add_executable(${PROJECT_NAME}.exe ${SOURCES})
 target_link_libraries(${PROJECT_NAME}.exe gtest gtest_main pthread)
-include(GoogleTest)
-gtest_discover_tests(${PROJECT_NAME}.exe)
+# include(GoogleTest)
+# gtest_discover_tests(${PROJECT_NAME}.exe)
