@@ -6,5 +6,5 @@
 TEST(ExampleTest, TestAddition) {
   int a = 2;
   int b = 3;
-  EXPECT_EQ(a + b, 5);
+  EXPECT_EQ(a + b, 6);
 }
