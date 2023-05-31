@@ -4,7 +4,7 @@ project(unit-tests LANGUAGES C CXX)
 cmake_minimum_required(VERSION 3.0)
 
 # Set the CMake generator to MinGW
-set(CMAKE_GENERATOR "MinGW Makefiles")
+# set(CMAKE_GENERATOR "MinGW Makefiles")
 
 # Set the path to the MinGW toolchain
 # set(CMAKE_C_COMPILER "C:/ProgramData/chocolatey/bin/gcc.exe")
