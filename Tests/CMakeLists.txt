@@ -19,5 +19,5 @@ FetchContent_MakeAvailable(googletest)
 
 file(GLOB_RECURSE SOURCES "*.*")
 
-add_executable(${PROJECT_NAME}.exe ${SOURCES})
-target_link_libraries(${PROJECT_NAME}.exe gtest gtest_main pthread)
+add_executable(${PROJECT_NAME} ${SOURCES})
+target_link_libraries(${PROJECT_NAME} gtest gtest_main pthread)
